@@ -1,0 +1,21 @@
+we need to store the cart item so that when the page is refreshed it should not fall to default;
+
+for that we are writing a function
+function saveToStorage(){
+    localStorage.setItem('cart','')
+}
+
+setitem here takes two strings 
+first is name what ever we wanna save
+second string is data we want to save
+//we need to convert the cart to string
+
+JSON.stringify(cart) //converting into string
+
+//localStorage.getItem()//to get the stored item 
+//get item only takes string i.e. in this case name of the set item('cart')
+//as localstorage.get is only gives out just a string.
+//so we need to convert back to noraml; 
+//for that we use JSON.parse(localStorage.getItem());
+
+#as intially the cart will be empty it will be showing null so we need to makesure that it shows 0 or some default value;

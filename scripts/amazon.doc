@@ -1,0 +1,5 @@
+ # import{product} from"../data/product.js";
+//.. represents get out of tHAT FOLDER;
+
+# import{formatCurrency} from"./utils/money.js"
+// . single dot represents be in the same folder but get out of the file.

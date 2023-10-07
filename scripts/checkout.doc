@@ -1,0 +1,11 @@
+radio selector ->the shipping date that we select is on the checkout page(the selection is radioselector)
+format of the radio selector is-> 
+<input type="radio" name="name1">
+
+//how it works 
+//if the given options have same name then we can select only one option
+
+after deleting the product hould be removed from the page:
+//steps to do this:
+//s1:Use the DOM to get the element to remove;
+//s2:Use .remove() method;
